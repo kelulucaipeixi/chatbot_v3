@@ -1,0 +1,16 @@
+[
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "I understand it."
+					},
+					"value": "true",
+					"action_id": "confirm_button"
+				}
+			]
+		}
+	]

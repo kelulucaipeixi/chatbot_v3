@@ -1,0 +1,73 @@
+[
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "explanations"
+      },
+      "accessory": {
+            "type": "image",
+            "image_url": "http://www.impawards.com/2015/minions_xlg.html/posters/minions_xlg.jpg",
+            "alt_text": "cute cat"
+        }
+    },
+    {
+      "type": "actions",
+      "elements": [
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "I hate it"
+            },
+            "style": "danger",
+            "value": "1",
+            "action_id": "preference_extractor1"
+          },
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Maybe I don't like it"
+            },
+            "style": "danger",
+            "value": "2",
+            "action_id": "preference_extractor2"
+          },
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "I don't know"
+            },
+            "value": "3",
+            "action_id": "preference_extractor3"
+          },
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Maybe I like it"
+            },
+            "style": "primary",
+            "value": "4",
+            "action_id": "preference_extractor4"
+          },
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "I love it"
+            },
+            "style": "primary",
+            "value": "5",
+            "action_id": "preference_extractor5"
+          }
+
+      ]
+    }
+    
+  ]

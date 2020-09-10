@@ -1,0 +1,12 @@
+[
+		{
+			"type": "divider"
+		},	
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Explanations For Your Preferences:"
+			}
+		}
+	]
