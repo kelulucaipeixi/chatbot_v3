@@ -95,18 +95,18 @@ class explanationSystem():
 		qc.height = 300
 		qc.device_pixel_ratio = 2.0
 		qc.config = {
-		  "type": 'pie',
+		  "type": 'bar',
 		  "data": {
 		    "labels": ['movies get a low score','movies get a high score'],
 		    "datasets": [{
-		      "data": [low,high]
+		      "label": "movies have the feature mentioned above",
+		      "data": [low, high, 100]
 		    }]
 		  },
 		  "options": {
 		    "plugins": {
 		      "datalabels": {
 		        "display": True,
-		        "align": 'bottom',
 		        "backgroundColor": '#ccc',
 		        "borderRadius": 3,
 		        "font": {
